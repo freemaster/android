@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#f94b11</color>
+
+    <color name="colorMenuOn">#33343a</color>
+    <color name="colorMenuOff">#ce2029</color>
+    <color name="colorMenuOffMgr">#0068b7</color>
+
+    <color name="colorMenu2_On">#FFFFFF</color>
+    <color name="colorMenu2_Off">#FFFFFF</color>
+
+    <color name="colorMenuSubBtn">#818590</color>
+    <color name="colorMenuSubTxt">#FFFFFF</color>
+
+
+    <color name="colorPhone_On">#6e74da</color>
+    <color name="colorPhone_Off">#2c2e52</color>
+
+
+
+
+    <color name="colorHeader">#ce2029</color>
+    <color name="colorHeaderMgr">#0068b7</color>
+    <color name="colorBody">#e5e5e5</color>
+
+
+    <!-- message -->
+    <color name="colorMsgBack">#f5e7df</color>
+    <color name="colorMsgOthers">#FFFFFF</color>
+    <color name="colorMsgMy">#e2b79f</color>
+    <color name="colorMsgText">#333333</color>
+    <color name="colorMsgHead">#635153</color>
+
+
+    <color name="color_item_row_head">#f6f6f6</color>
+    <color name="color_item_row_text">#FFFFFF</color>
+
+
+    <!-- good -->
+    <color name="color_body_back">#e5e5e5</color>
+    <color name="color_search_back">#FFFFFF</color>
+    <color name="color_table_back">#656873</color>
+    <color name="color_row_back">#e5e5e5</color>
+    <color name="color_cell_head">#f6f6f6</color>
+    <color name="color_cell_text">#FFFFFF</color>
+
+    <color name="color_set_driver_btn">#ce2029</color>
+    <color name="color_set_manager_btn">#0068b7</color>
+
+    <color name="color_transparency">#00000000</color>
+    <color name="color_red">#ce2029</color>
+    <color name="color_blue">#0068b7</color>
+    <color name="color_gray">#808080</color>
+    <color name="color_gray_dark_light">#5F5F5F</color>
+    <color name="color_gray_dark">#424242</color>
+    <color name="color_gray_light">#BBBBBB</color>
+    <color name="color_white_dark">#DBD9D9</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <color name="color_black">#000000</color>
+    <color name="color_yellow">#FFEB3B</color>
+    <color name="color_green">#A3FD82</color>
+    <color name="color_pickup">#585858</color>
+
+    <color name="color_search_navy">#002e73</color>
+    <color name="color_navy">#021C4E</color>
+
+    <color name="color_pickup_back">#D9E5FF</color>
+
+
+    <color name="color_th_lay">#f6f6f6</color>
+    <color name="color_td_lay">#FFFFFF</color>
+
+
+
+
+
+    <color name="color_back_title">#f6f6f6</color>  <!-- headder -->
+    <color name="color_back_body">#414040</color>
+    <color name="color_back_find">#414040</color>  <!-- search -->
+    <color name="color_back_head">#f6f6f6</color>
+    <color name="color_back_text">#4B1A88</color>
+    <color name="color_back_list">#414040</color>
+    <color name="color_back_none">#00FFFFFF</color>  <!-- Transparency -->
+
+    <color name="color_text_head">#f6f6f6</color>  <!-- 제목 -->
+    <color name="color_text_main">#f6f6f6</color>  <!-- 주된 -->
+    <color name="color_text_find">#f6f6f6</color>
+    <color name="color_text">#f6f6f6</color>
+
+    <color name="color_line">#f6f6f6</color>
+    <color name="color_line_main">#f6f6f6</color>
+
+
+
+
+    <!-- disposal -->
+    <color name="colorInfo_head">#f6f6f6</color>
+    <color name="colorInfo_text">#FFFFFF</color>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="driver_mgr_level">
+        <item>등급선택</item>
+        <item>베테랑</item>
+        <item>최고수</item>
+        <item>고수</item>
+        <item>중수</item>
+        <item>일반</item>
+    </string-array>
+
+    <string-array name="driver_mgr_attend">
+        <item>출결</item>
+        <item>출근</item>
+        <item>퇴근</item>
+    </string-array>
+
+
+    <string-array name="driver_mgr_state">
+        <item>상태</item>
+        <item>근무</item>
+        <item>퇴사</item>
+    </string-array>
+
+    <string-array name="driver_mgr_sort">
+        <item>정렬</item>
+        <item>등급순</item>
+        <item>이름순</item>
+
+    </string-array>
+
+
+
+
+
+    <string-array name="selected">
+        <item>credit</item>
+        <!-- <item>p_cash</item> -->
+        <!-- <item>c_cash</item> -->
+
+        <!--<item>credit_cancel</item> -->
+        <!-- <item>p_cash_cancel</item> -->
+        <!--<item>c_cash_cancel</item> -->
+
+        <!--<item>lasttran</item> -->
+        <!-- <item>history</item> -->
+        <!-- <item>error</item> -->
+        <!--<item>v_cash</item> -->
+        <!-- <item>v_cash_cancel</item> -->
+        <!-- <item>print</item>  -->
+    </string-array>
+
+
+</resources>

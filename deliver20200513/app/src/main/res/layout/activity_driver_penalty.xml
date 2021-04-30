@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add.DriverPenaltyActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@color/color_body_back"
+        >
+
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_table_back"
+            android:paddingTop="1dp"
+            android:stretchColumns="*">
+
+            <TableRow android:background="@drawable/row_bottom_line">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="3"
+
+                    android:text="아이디"
+                    android:background="@color/color_cell_head"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/id_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="7"
+                    android:text=""
+                    android:background="@color/color_cell_text"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="@drawable/row_bottom_line">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="3"
+
+                    android:text="이름"
+                    android:background="@color/color_cell_head"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="7"
+                    android:text=""
+                    android:background="@color/color_cell_text"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="@drawable/row_bottom_line">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="3"
+
+                    android:text="핸드폰"
+                    android:background="@color/color_cell_head"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/phone_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="7"
+                    android:text=""
+                    android:background="@color/color_cell_text"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="@drawable/row_bottom_line">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="3"
+
+                    android:text="기사상태"
+                    android:background="@color/color_cell_head"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/state_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="7"
+                    android:text=""
+                    android:background="@color/color_cell_text"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="@drawable/row_bottom_line">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="3"
+
+                    android:text="패널티 총합"
+                    android:background="@color/color_cell_head"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/total_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="7"
+                    android:text=""
+                    android:background="@color/color_cell_text"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow android:background="@drawable/row_bottom_line">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="3"
+
+                    android:text="패널티 점수"
+                    android:background="@color/color_cell_head"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/point_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="7"
+                    android:text=""
+                    android:background="@color/color_cell_text"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+            <TableRow android:background="@drawable/row_bottom_line">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="3"
+
+                    android:text="메 모"
+                    android:background="@color/color_cell_head"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/memo_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/cell_h_penalty"
+                    android:layout_weight="7"
+                    android:text=""
+                    android:background="@color/color_cell_text"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+            <TableRow android:background="@drawable/row_bottom_line">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+
+                    android:text="기사콜 제한"
+                    android:background="@color/color_cell_head"
+                    android:gravity="center"/>
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+
+                    android:background="@color/color_cell_text"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="배차 제한"
+                        android:layout_gravity="center"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+                        <EditText
+                            android:layout_width="40dp"
+                            android:layout_height="30dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+
+                            android:text="배차 제한"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="기사들이 잡을 수 있는 배차 수를 제한합니다."/>
+
+
+
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="등록" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="취소" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

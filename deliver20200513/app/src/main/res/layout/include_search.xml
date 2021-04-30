@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Header
+
+      -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/search_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="75"
+        android:orientation="vertical"
+
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/s_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:ems="14"
+                android:gravity="center"
+                android:inputType="date"
+                android:textSize="14dp"
+                android:background="@drawable/box_border_gray"/>
+
+            <ImageButton
+                android:id="@+id/s_calendar_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:src="@drawable/ic_calendar_white"
+                android:text="달력"
+                android:textSize="10dp"
+                android:background="@color/color_gray"/>
+
+
+                <TextView
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:text="~"
+                    android:gravity="center"/>
+
+
+
+            <EditText
+                android:id="@+id/e_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:background="@drawable/box_border_gray"
+                android:ems="14"
+                android:gravity="center"
+                android:inputType="date"
+                android:textSize="14dp" />
+
+            <ImageButton
+                android:id="@+id/e_calendar_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:src="@drawable/ic_calendar_white"
+                android:text="달력"
+                android:textSize="10dp"
+                android:background="@color/color_gray"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+
+            >
+
+            <Button
+
+                android:id="@+id/today_btn"
+                android:layout_width="50dp"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_day_btn"
+                android:text="당일"
+                android:textSize="11dp" />
+
+            />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+
+                android:id="@+id/yesterday_btn"
+                android:layout_width="50dp"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_day_btn"
+                android:text="어제"
+                android:textSize="11dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/oneweek_btn"
+                android:layout_width="50dp"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_day_btn"
+                android:text="일주일"
+                android:textSize="11dp" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/onemonth_btn"
+                android:layout_width="50dp"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_day_btn"
+                android:text="한달"
+                android:textSize="11dp"
+
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:background="@color/color_search_navy"
+            android:text="검 색"
+            android:textColor="@color/color_white"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+

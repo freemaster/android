@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newkoad.deliver"
+    android:versionCode="6"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application
+        android:name="com.newkoad.deliver.MainApp"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.newkoad.deliver.WebBoard2Activity" />
+        <activity android:name="com.newkoad.deliver.SocketIOnActivity" />
+        <activity
+            android:name="com.newkoad.deliver.SocketIOActivity"
+            android:label="@string/title_activity_socket_io"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.newkoad.deliver.add.DepositListgActivity" />
+        <activity android:name="com.newkoad.deliver.LocationActivity" />
+        <activity android:name="com.newkoad.deliver.WebBoardActivity" />
+        <activity android:name="com.newkoad.deliver.add.LteActivity" />
+        <activity android:name="com.newkoad.deliver.add.BoxActivity" />
+        <activity android:name="com.newkoad.deliver.add.DepositActivity" />
+        <activity android:name="com.newkoad.deliver.add.CostMgrActivity" />
+        <activity android:name="com.newkoad.deliver.add.CostLteActivity" />
+        <activity android:name="com.newkoad.deliver.add.CostBoxActivity" />
+        <activity android:name="com.newkoad.deliver.PayResultActivity" />
+        <activity
+            android:name="com.newkoad.deliver.PayActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.newkoad.deliver.PayKSActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.newkoad.deliver.add.StoreMgrActivity" />
+        <activity android:name="com.newkoad.deliver.add.RiderMgrActivity" />
+        <activity android:name="com.newkoad.deliver.add.MoneyPutActivity" />
+        <activity android:name="com.newkoad.deliver.add.MoneyGetActivity" />
+        <activity android:name="com.newkoad.deliver.NaviTmapActivity" />
+        <activity
+            android:name="com.newkoad.deliver.add.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.newkoad.deliver.add.MyInfoActivity" />
+        <activity android:name="com.newkoad.deliver.add.MoneyActivity" />
+        <activity
+            android:name="com.newkoad.deliver.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.newkoad.deliver.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.newkoad.deliver.ReceiveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.newkoad.deliver.AllocateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.newkoad.deliver.FinishActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.newkoad.deliver.FinishKSActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.newkoad.deliver.MapWebDaumActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.newkoad.deliver.MsgActivity" />
+        <activity android:name="com.newkoad.deliver.ServerActivity" />
+        <activity android:name="com.newkoad.deliver.ClientActivity" />
+        <activity android:name="com.newkoad.deliver.DediBoxActivity" />
+        <activity
+            android:name="com.newkoad.deliver.add.StoreInfoActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.newkoad.deliver.add.StoreMgrPayActivity" />
+        <activity android:name="com.newkoad.deliver.add.DriverAttendActivity" />
+        <activity android:name="com.newkoad.deliver.add.DriverPenaltyActivity" />
+        <activity android:name="com.newkoad.deliver.add.BranchInfoActivity" />
+
+        <service
+            android:name="com.newkoad.deliver.GpsInfo"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.newkoad.deliver.SocketIOService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.newkoad.deliver.add.BoardActivity" />
+
+        <receiver android:name="com.newkoad.deliver.AlarmRecever" />
+    </application>
+
+</manifest>

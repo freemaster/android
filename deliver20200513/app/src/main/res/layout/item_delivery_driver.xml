@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/row_bottom_line"
+    >
+
+
+        <TextView
+            android:id="@+id/cell_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="기사명"
+            android:background="@color/color_cell_text"/>
+
+        <TextView
+            android:id="@+id/cell_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="배달건수"
+            android:background="@color/color_cell_text"/>
+
+        <TextView
+            android:id="@+id/cell_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="배달료"
+            android:background="@color/color_cell_text"/>
+
+        <TextView
+            android:id="@+id/cell_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="광고건수"
+            android:background="@color/color_cell_text"/>
+
+
+        <TextView
+            android:id="@+id/cell_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="광고료"
+            android:background="@color/color_cell_text"/>
+
+
+
+</LinearLayout>

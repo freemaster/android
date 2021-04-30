@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.newkoad.deliver"
+4    android:versionCode="6"
+5    android:versionName="1.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\_newko\deliver\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\_newko\deliver\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:7:5-76
+13-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:9:5-81
+15-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:10:5-68
+16-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.REORDER_TASKS" />
+17-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:11:5-72
+17-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:11:22-69
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:9:5-81
+18-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:13:5-75
+19-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:13:22-72
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:14:5-81
+20-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:15:5-81
+21-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:16:5-80
+22-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:16:22-77
+23    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+23-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:17:5-81
+23-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:17:22-78
+24    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+24-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:18:5-80
+24-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.CALL_PHONE" />
+25-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:19:5-69
+25-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:19:22-66
+26
+27    <application
+27-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:21:5-124:19
+28        android:name="com.newkoad.deliver.MainApp"
+28-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:22:9-32
+29        android:allowBackup="true"
+29-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:23:9-35
+30        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+30-->[com.android.support:support-compat:28.0.0] C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+31        android:icon="@mipmap/ic_icon"
+31-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:24:9-39
+32        android:label="@string/app_name"
+32-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:25:9-41
+33        android:roundIcon="@mipmap/ic_icon_round"
+33-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:26:9-50
+34        android:supportsRtl="true"
+34-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:27:9-35
+35        android:theme="@style/AppTheme"
+35-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:28:9-40
+36        android:usesCleartextTraffic="true" >
+36-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:29:9-44
+37        <activity android:name="com.newkoad.deliver.WebBoard2Activity" />
+37-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:30:9-64
+37-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:30:19-52
+38        <activity android:name="com.newkoad.deliver.SocketIOnActivity" />
+38-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:31:9-55
+38-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:31:19-52
+39        <activity
+39-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:32:9-35:59
+40            android:name="com.newkoad.deliver.SocketIOActivity"
+40-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:33:13-45
+41            android:label="@string/title_activity_socket_io"
+41-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:34:13-61
+42            android:theme="@style/AppTheme.NoActionBar" />
+42-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:35:13-56
+43        <activity android:name="com.newkoad.deliver.add.DepositListgActivity" />
+43-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:36:9-62
+43-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:36:19-59
+44        <activity android:name="com.newkoad.deliver.LocationActivity" />
+44-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:37:9-54
+44-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:37:19-51
+45        <activity android:name="com.newkoad.deliver.WebBoardActivity" />
+45-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:38:9-54
+45-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:38:19-51
+46        <activity android:name="com.newkoad.deliver.add.LteActivity" />
+46-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:39:9-53
+46-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:39:19-50
+47        <activity android:name="com.newkoad.deliver.add.BoxActivity" />
+47-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:40:9-53
+47-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:40:19-50
+48        <activity android:name="com.newkoad.deliver.add.DepositActivity" />
+48-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:41:9-57
+48-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:41:19-54
+49        <activity android:name="com.newkoad.deliver.add.CostMgrActivity" />
+49-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:42:9-57
+49-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:42:19-54
+50        <activity android:name="com.newkoad.deliver.add.CostLteActivity" />
+50-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:43:9-57
+50-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:43:19-54
+51        <activity android:name="com.newkoad.deliver.add.CostBoxActivity" />
+51-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:44:9-57
+51-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:44:19-54
+52        <activity android:name="com.newkoad.deliver.PayResultActivity" />
+52-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:45:9-55
+52-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:45:19-52
+53        <activity
+53-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:46:9-48:57
+54            android:name="com.newkoad.deliver.PayActivity"
+54-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:47:13-40
+55            android:windowSoftInputMode="stateHidden" />
+55-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:48:13-54
+56        <activity
+56-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:49:9-51:57
+57            android:name="com.newkoad.deliver.PayKSActivity"
+57-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:50:13-42
+58            android:windowSoftInputMode="stateHidden" />
+58-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:51:13-54
+59        <activity android:name="com.newkoad.deliver.add.StoreMgrActivity" />
+59-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:52:9-58
+59-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:52:19-55
+60        <activity android:name="com.newkoad.deliver.add.RiderMgrActivity" />
+60-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:53:9-58
+60-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:53:19-55
+61        <activity android:name="com.newkoad.deliver.add.MoneyPutActivity" />
+61-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:54:9-58
+61-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:54:19-55
+62        <activity android:name="com.newkoad.deliver.add.MoneyGetActivity" />
+62-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:55:9-58
+62-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:55:19-55
+63        <activity android:name="com.newkoad.deliver.NaviTmapActivity" />
+63-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:56:9-54
+63-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:56:19-51
+64        <activity
+64-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:57:9-59:52
+65            android:name="com.newkoad.deliver.add.SettingActivity"
+65-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:58:13-48
+66            android:screenOrientation="portrait" />
+66-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:59:13-49
+67        <activity android:name="com.newkoad.deliver.add.MyInfoActivity" />
+67-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:60:9-56
+67-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:60:19-53
+68        <activity android:name="com.newkoad.deliver.add.MoneyActivity" />
+68-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:61:9-55
+68-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:61:19-52
+69        <activity
+69-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:66:9-78:20
+70            android:name="com.newkoad.deliver.LoginActivity"
+70-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:67:13-42
+71            android:configChanges="keyboardHidden|orientation"
+71-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:68:13-63
+72            android:label="@string/app_name"
+72-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:69:13-45
+73            android:screenOrientation="portrait"
+73-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:70:13-49
+74            android:theme="@style/AppTheme.NoActionBar" >
+74-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:71:13-56
+75            <intent-filter>
+75-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:72:13-77:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:73:17-69
+76-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:73:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:75:17-77
+78-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:75:27-74
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:79:9-82:52
+82            android:name="com.newkoad.deliver.MainActivity"
+82-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:80:13-41
+83            android:configChanges="keyboardHidden|orientation"
+83-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:81:13-63
+84            android:screenOrientation="portrait" />
+84-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:82:13-49
+85        <activity
+85-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:83:9-85:52
+86            android:name="com.newkoad.deliver.ReceiveActivity"
+86-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:84:13-44
+87            android:screenOrientation="portrait" />
+87-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:85:13-49
+88        <activity
+88-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:86:9-88:52
+89            android:name="com.newkoad.deliver.AllocateActivity"
+89-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:87:13-45
+90            android:screenOrientation="portrait" />
+90-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:88:13-49
+91        <activity
+91-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:89:9-91:52
+92            android:name="com.newkoad.deliver.FinishActivity"
+92-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:90:13-43
+93            android:screenOrientation="portrait" />
+93-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:91:13-49
+94        <activity
+94-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:92:9-94:52
+95            android:name="com.newkoad.deliver.FinishKSActivity"
+95-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:93:13-45
+96            android:screenOrientation="portrait" />
+96-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:94:13-49
+97        <activity
+97-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:95:9-97:52
+98            android:name="com.newkoad.deliver.MapWebDaumActivity"
+98-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:96:13-47
+99            android:screenOrientation="portrait" />
+99-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:97:13-49
+100        <activity android:name="com.newkoad.deliver.MsgActivity" />
+100-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:98:9-49
+100-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:98:19-46
+101        <activity android:name="com.newkoad.deliver.ServerActivity" />
+101-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:99:9-52
+101-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:99:19-49
+102        <activity android:name="com.newkoad.deliver.ClientActivity" />
+102-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:100:9-52
+102-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:100:19-49
+103        <activity android:name="com.newkoad.deliver.DediBoxActivity" />
+103-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:101:9-53
+103-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:101:19-50
+104        <activity
+104-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:102:9-104:57
+105            android:name="com.newkoad.deliver.add.StoreInfoActivity"
+105-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:103:13-50
+106            android:windowSoftInputMode="stateHidden" />
+106-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:104:13-54
+107        <activity android:name="com.newkoad.deliver.add.StoreMgrPayActivity" />
+107-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:105:9-61
+107-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:105:19-58
+108        <activity android:name="com.newkoad.deliver.add.DriverAttendActivity" />
+108-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:106:9-62
+108-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:106:19-59
+109        <activity android:name="com.newkoad.deliver.add.DriverPenaltyActivity" />
+109-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:107:9-63
+109-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:107:19-60
+110        <activity android:name="com.newkoad.deliver.add.BranchInfoActivity" />
+110-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:108:9-60
+110-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:108:19-57
+111
+112        <service
+112-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:110:9-113:39
+113            android:name="com.newkoad.deliver.GpsInfo"
+113-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:111:13-36
+114            android:enabled="true"
+114-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:112:13-35
+115            android:exported="true" />
+115-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:113:13-36
+116        <service
+116-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:114:9-117:39
+117            android:name="com.newkoad.deliver.SocketService"
+117-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:115:13-42
+118            android:enabled="true"
+118-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:116:13-35
+119            android:exported="true" />
+119-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:117:13-36
+120        <service
+120-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:118:9-121:39
+121            android:name="com.newkoad.deliver.SocketIOService"
+121-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:119:13-44
+122            android:enabled="true"
+122-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:120:13-35
+123            android:exported="true" />
+123-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:121:13-36
+124
+125        <activity android:name="com.newkoad.deliver.add.BoardActivity" />
+125-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:123:9-55
+125-->D:\_newko\deliver\app\src\main\AndroidManifest.xml:123:19-52
+126    </application>
+127
+128</manifest>

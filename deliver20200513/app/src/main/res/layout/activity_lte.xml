@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add.LteActivity"
+    android:orientation="vertical">
+    <include layout="@layout/header"/>
+    <LinearLayout
+        android:id="@id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_body_back"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <include layout="@layout/include_search_year" />
+
+        <include layout="@layout/include_top_info" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/color_item_row_text"
+            android:orientation="horizontal"
+            android:padding="@dimen/item_row_padding">
+
+            <TextView
+                android:id="@+id/cell_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/item_cell_padding"
+                android:text="입금일시" />
+
+            <TextView
+                android:id="@+id/cell_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/item_cell_padding"
+                android:text="월 이용요금" />
+
+
+            <TextView
+                android:id="@+id/cell_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/item_cell_padding"
+                android:text="임금상태" />
+
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/data_RV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_navy"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</LinearLayout>

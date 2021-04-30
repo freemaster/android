@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(232,191,106); }
+.s1 { color: rgb(186,186,186); }
+.s2 { color: rgb(106,135,89); }
+.s3 { color: rgb(169,183,198); }
+.s4 { color: rgb(128,128,128); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+activity_main.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">&lt;?</span><span class="s1">xml version=</span><span class="s2">&quot;1.0&quot; </span><span class="s1">encoding=</span><span class="s2">&quot;utf-8&quot;</span><span class="s0">?&gt;</span><span class="s3"> 
+</span><span class="s0">&lt;LinearLayout </span><span class="s1">xmlns:android=</span><span class="s2">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:app=</span><span class="s2">&quot;http://schemas.android.com/apk/res-auto&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:tools=</span><span class="s2">&quot;http://schemas.android.com/tools&quot;</span><span class="s0"> 
+    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/main_content&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">android:fitsSystemWindows=</span><span class="s2">&quot;true&quot;</span><span class="s0"> 
+    </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0"> 
+    </span><span class="s1">tools:context=</span><span class="s2">&quot;.MainActivity&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+ 
+    </span><span class="s0">&lt;android.support.v7.widget.Toolbar 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/toolbarTop&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;40dp&quot;</span><span class="s0"> 
+        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s1">android:visibility=</span><span class="s2">&quot;gone&quot;</span><span class="s0"> 
+        </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/line_toobar&quot;</span><span class="s0"> 
+ 
+        &gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;LinearLayout 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+            </span><span class="s1">android:orientation=</span><span class="s2">&quot;horizontal&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+        </span><span class="s0">&lt;TextView 
+            </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/toolbarName&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;30dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;84&quot;</span><span class="s0"> 
+            </span><span class="s1">android:text=</span><span class="s2">&quot;뉴코지점 newko01&quot;</span><span class="s0"> 
+            </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:textColor=</span><span class="s2">&quot;#EAEAEA&quot;</span><span class="s0"> 
+            </span><span class="s1">android:textAlignment=</span><span class="s2">&quot;center&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;Button 
+            </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/toolbarSetting&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;36dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;16&quot;</span><span class="s0"> 
+            </span><span class="s1">android:text=</span><span class="s2">&quot;설정&quot;</span><span class="s0"> 
+ 
+            /&gt;</span><span class="s3"> 
+        </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;/android.support.v7.widget.Toolbar&gt;</span><span class="s3"> 
+    </span><span class="s4">&lt;!-- 
+     
+    &lt;include layout=&quot;@layout/tool_bar&quot; /&gt; 
+ 
+ 
+    &lt;FrameLayout 
+        android:id=&quot;@+id/main_framelayout&quot; 
+        android:layout_width=&quot;match_parent&quot; 
+        android:layout_height=&quot;match_parent&quot; 
+        &gt; 
+ 
+    &lt;/FrameLayout&gt; 
+    --&gt;</span><span class="s3"> 
+ 
+ 
+ 
+ 
+    </span><span class="s0">&lt;android.support.design.widget.TabLayout 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/tablayout_id&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s1">app:tabMode=</span><span class="s2">&quot;fixed&quot;</span><span class="s0"> 
+        </span><span class="s1">app:tabGravity=</span><span class="s2">&quot;fill&quot;</span><span class="s0"> 
+        </span><span class="s1">app:tabIndicatorColor=</span><span class="s2">&quot;@color/colorAccent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:background=</span><span class="s2">&quot;#ce2029&quot;</span><span class="s0"> 
+        </span><span class="s1">app:tabBackground=</span><span class="s2">&quot;@drawable/tab_color_selector&quot;</span><span class="s0"> 
+        </span><span class="s1">app:tabTextColor=</span><span class="s2">&quot;#ffffff&quot;</span><span class="s0"> 
+        &gt;&lt;/android.support.design.widget.TabLayout&gt;</span><span class="s3"> 
+ 
+ 
+    </span><span class="s0">&lt;LinearLayout 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/mainLayout&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0"> 
+        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+        &gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;android.support.v4.view.ViewPager 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/viewpager_id&quot;</span><span class="s0"> 
+        </span><span class="s1">android:visibility=</span><span class="s2">&quot;gone&quot;</span><span class="s0"> 
+        &gt;</span><span class="s3"> 
+    </span><span class="s0">&lt;/android.support.v4.view.ViewPager&gt;</span><span class="s3"> 
+ 
+ 
+ 
+ 
+ 
+ 
+</span><span class="s0">&lt;/LinearLayout&gt;</span></pre>
+</body>
+</html>

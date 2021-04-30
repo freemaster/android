@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325944673530",
+    "project_id": "beetalk-b4fb2",
+    "storage_bucket": "beetalk-b4fb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325944673530:android:9da43297e8bb363345f543",
+        "android_client_info": {
+          "package_name": "com.test.beetalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325944673530-5ghktn7peo8spejuv47vqjc5hqmenrdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPTFYG4q5vOm46exbMd8kpRXU2XtDMmA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325944673530-5ghktn7peo8spejuv47vqjc5hqmenrdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

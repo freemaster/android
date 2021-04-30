@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "491714589306",
+    "firebase_url": "https://deliver-513ed.firebaseio.com",
+    "project_id": "deliver-513ed",
+    "storage_bucket": "deliver-513ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491714589306:android:430375b36e8417bd",
+        "android_client_info": {
+          "package_name": "com.newkoad.deliver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491714589306-mjdgc1ndf6bujritftpf3mtvot75o6t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkbhcADcd1WNG2l6g-0EqgxNsBZcY5s4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

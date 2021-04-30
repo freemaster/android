@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <!-- MainActivity -->
+
+
+    <!-- header -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+
+        android:orientation="horizontal"
+
+
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/billing_amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center"
+
+            android:text="배달 현황설정"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="vertical"
+        android:background="@drawable/line_top"
+        android:paddingTop="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@color/colorInfo_head"
+                android:text="배달여부"
+                android:textSize="14dp"
+                android:gravity="center"
+                />
+
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/colorInfo_text">
+
+                <RadioButton
+                    android:id="@+id/deliver_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="가능" />
+
+                <RadioButton
+                    android:id="@+id/deliver_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="불가능" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@color/colorInfo_head"
+
+                android:text="배달속도"
+                android:textSize="14dp"
+                android:gravity="center"
+                />
+
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/colorInfo_text">
+
+                <RadioButton
+                    android:id="@+id/speed_good"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="원활" />
+
+                <RadioButton
+                    android:id="@+id/speed_delay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="지연" />
+
+
+                <RadioButton
+                    android:id="@+id/speed_jam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="폭주" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@color/colorInfo_head"
+
+                android:text="할증"
+                android:textSize="14dp"
+                android:padding="10dp"
+
+                android:gravity="center"
+                />
+
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/colorInfo_text">
+
+                <RadioButton
+                    android:id="@+id/extra_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="가능" />
+
+                <RadioButton
+                    android:id="@+id/extra_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="불가능" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/confirmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확 인" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취 소" />
+    </LinearLayout>
+</LinearLayout>

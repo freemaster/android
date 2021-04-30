@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!--
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarTop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/line_toobar"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/toolbarName"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="84"
+            android:text="뉴코지점 newko01"
+            android:textSize="16dp"
+            android:textColor="#EAEAEA"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/toolbarSetting"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="16"
+            android:text="설정"
+
+            />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+    -->
+
+
+    <!--
+    
+    <include layout="@layout/tool_bar" />
+
+
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+    -->
+
+
+    <!-- <android.support.v7.widget.Toolbar -->
+    <LinearLayout
+        android:id="@+id/toolbarTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/branch_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="#6F7EDA"
+            android:visibility="gone"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/branch_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="지점명"
+                android:textSize="16sp"
+                android:textColor="@color/color_yellow"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/trace_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지도"/>
+
+        <Button
+            android:id="@+id/kakao_navi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카카오네비"/>
+
+        <Button
+            android:id="@+id/tmap_navi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tmap네비"/>
+
+    </LinearLayout>
+
+
+
+    <com.newkoad.deliver.BadgeTabLayout
+        android:id="@+id/tablayout_rider"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabBackground="@drawable/tab_color_selector"
+        app:tabTextColor="#ffffff"
+
+        ></com.newkoad.deliver.BadgeTabLayout>
+
+    <com.newkoad.deliver.BadgeTabLayout
+        android:id="@+id/tablayout_mgr"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabBackground="@drawable/tab_color_selector_mgr"
+        app:tabTextColor="#ffffff"
+        android:visibility="gone"
+        ></com.newkoad.deliver.BadgeTabLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager_id"
+        android:visibility="gone"
+        >
+    </android.support.v4.view.ViewPager>
+
+
+
+
+
+
+</LinearLayout>

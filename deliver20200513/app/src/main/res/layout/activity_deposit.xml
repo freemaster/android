@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add.DepositActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_gray_dark">
+
+        <LinearLayout
+            android:id="@id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/color_gray"
+                android:paddingBottom="1dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/color_gray_dark"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:text="예치금 잔액"
+                            android:textColor="@color/color_white"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/deposit_tv"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text=""
+                            android:textColor="@color/color_yellow"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+
+                            android:layout_width="18dp"
+                            android:layout_height="wrap_content"
+
+
+                            android:text="원"
+                            android:textColor="@color/color_white"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="30"
+                        android:gravity="right"
+                        android:orientation="horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_gray_dark"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/textView38"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:text="수입금액"
+                                android:textColor="@color/color_white"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:id="@+id/add_price_tv"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+
+                                    android:gravity="right"
+                                    android:text=""
+                                    android:textColor="@color/color_white"
+                                    android:textSize="25dp" />
+
+                                <TextView
+                                    android:layout_width="18dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="원"
+                                    android:textColor="@color/color_white" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/textView58"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+
+                                android:text="지출금액"
+                                android:textColor="@color/color_white"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:id="@+id/sub_price_tv"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+
+                                    android:gravity="right"
+                                    android:text=""
+                                    android:textColor="@color/color_white"
+                                    android:textSize="25dp" />
+
+                                <TextView
+                                    android:layout_width="18dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="원"
+                                    android:textColor="@color/color_white" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_gray"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="1dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:orientation="vertical"
+                        android:background="@color/color_gray_dark"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/condition_ref_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/color_green" />
+
+                        <TextView
+                            android:id="@+id/condition_ref2_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/color_yellow" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:background="@color/color_gray_dark"
+                        android:gravity="right"
+                        android:orientation="vertical"
+                        android:paddingRight="10dp">
+
+                        <Button
+                            android:id="@+id/condition_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="검색조건\n설정"
+
+                            android:textSize="16dp"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <include layout="@layout/include_search_day" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/color_gray_dark">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/color_gray"
+                    android:orientation="horizontal"
+
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/cell_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/item_cell_padding"
+                        android:text="날짜"
+                        android:textColor="@color/color_white"/>
+
+                    <TextView
+                        android:id="@+id/cell_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/item_cell_padding"
+                        android:text="분류"
+                        android:textColor="@color/color_white"/>
+
+
+                    <TextView
+                        android:id="@+id/cell_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/item_cell_padding"
+                        android:text="입출금"
+                        android:textColor="@color/color_white"/>
+
+                    <TextView
+                        android:id="@+id/cell_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/item_cell_padding"
+                        android:text="매모"
+                        android:textColor="@color/color_white"
+                        />
+
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/data_RV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_gray_dark">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

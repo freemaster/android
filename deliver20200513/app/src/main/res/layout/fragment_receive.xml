@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/ll_fragment"
+
+    >
+
+
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:background="#d2d2d2"
+        >
+
+        <Button
+            android:id="@+id/receive_all_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="전 체"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/selector_receive_btn"
+            />
+
+        <Button
+            android:id="@+id/receive_order_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="배 달"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/selector_receive_btn"
+            />
+
+        <Button
+            android:id="@+id/receive_adver_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="광 고"
+            android:background="@drawable/selector_receive_btn"/>
+    </LinearLayout>
+    -->
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/receive_recyclerview"
+        android:background="@color/colorMenuOn"
+     >
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

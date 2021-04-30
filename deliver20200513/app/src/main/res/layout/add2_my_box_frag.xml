@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add.MyInfoActivity"
+    android:orientation="vertical">
+
+    <!-- Body -->
+    <LinearLayout
+        android:id="@id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp"
+        android:background="@color/color_gray_dark">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:padding="20dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="디디박스 ID"
+                    android:textSize="16dp"
+                    android:textColor="@color/color_white"/>
+
+                <TextView
+                    android:id="@+id/box_id_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="boxid"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/color_yellow"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:gravity="right"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/color_gray"
+
+            android:layout_marginTop="30dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/color_gray_dark"
+
+                android:paddingTop="10dp"
+                android:padding="5dp"
+                android:layout_marginBottom="1dp"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="디디박스 정보"
+                    android:textColor="@color/color_white"
+                    android:textSize="24dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@color/color_gray_dark"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="계약일"
+
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:id="@+id/contract_day"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text=""
+
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@color/color_gray_dark"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="리스비용"
+
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:id="@+id/rent_pay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text=""
+
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@color/color_gray_dark"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="결제일"
+
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:id="@+id/payment_day"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text=""
+
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

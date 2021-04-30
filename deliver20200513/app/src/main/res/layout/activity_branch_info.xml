@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add.BranchInfoActivity"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TableLayout
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_table_back"
+                android:paddingTop="1dp"
+                android:stretchColumns="*">
+
+
+
+                <TableRow android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+                        android:background="@color/color_cell_head"
+
+                        android:text="현상태"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:id="@+id/state_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+                </TableRow>
+
+
+
+                <TableRow
+
+
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="아이디" />
+
+                    <TextView
+                        android:id="@+id/id_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="비밀번호" />
+
+                    <TextView
+                        android:id="@+id/pw_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="지점명" />
+
+                    <TextView
+                        android:id="@+id/name_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="사업자구분" />
+
+                    <TextView
+                        android:id="@+id/class_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="사업자번호" />
+
+                    <TextView
+                        android:id="@+id/number_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="업태" />
+
+                    <TextView
+                        android:id="@+id/type_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="업종" />
+
+                    <TextView
+                        android:id="@+id/kind_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/color_table_back"
+                android:paddingTop="1dp"
+                android:stretchColumns="*">
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="대표자명" />
+
+                    <TextView
+                        android:id="@+id/ceo_name_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="휴대폰" />
+
+                    <TextView
+                        android:id="@+id/phone_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="일반전화" />
+
+                    <TextView
+                        android:id="@+id/tel_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="팩스번호" />
+
+                    <TextView
+                        android:id="@+id/fax_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="이메일" />
+
+                    <TextView
+                        android:id="@+id/email_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/color_table_back"
+                android:paddingTop="1dp"
+                android:stretchColumns="*">
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="계약일" />
+
+                    <TextView
+                        android:id="@+id/join_date_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="보증금" />
+
+                    <TextView
+                        android:id="@+id/deposit_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="계약금" />
+
+                    <TextView
+                        android:id="@+id/down_payment_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="잔금" />
+
+                    <TextView
+                        android:id="@+id/balance_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="입금자명" />
+
+                    <TextView
+                        android:id="@+id/pay_name_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="입금은행" />
+
+                    <TextView
+                        android:id="@+id/pay_bank_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+
+                        android:text=""
+                        android:gravity="center">
+
+                    </TextView>
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/color_table_back"
+                android:paddingTop="1dp"
+                android:stretchColumns="*">
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/row_bottom_line">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cell_h_branch_info"
+                        android:layout_weight="3"
+
+                        android:background="@color/color_cell_head"
+                        android:gravity="center"
+                        android:text="사업장주소" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:background="@color/color_cell_text"
+                        android:padding="7dp"
+                        android:text=""
+                        android:gravity="center"
+
+                        >
+
+                    </TextView>
+
+
+                </TableRow>
+
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

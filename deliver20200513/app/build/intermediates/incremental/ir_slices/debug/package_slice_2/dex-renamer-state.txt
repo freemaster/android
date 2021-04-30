@@ -1,0 +1,4 @@
+#Mon Jan 13 18:34:40 KST 2020
+base.0=D\:\\_newko\\deliver\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

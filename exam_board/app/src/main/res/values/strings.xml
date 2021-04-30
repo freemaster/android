@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">exam_board</string>
+    <string-array name="board_list">
+        <item>1. Android 짱 재밌음</item>
+        <item>2. 아님. 어려움...</item>
+        <item>3. 완전 잠온다.</item>
+        <item>4. 집에 빨리 가고 싶다.</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/row_bottom_line"
+    >
+
+
+
+        <TextView
+            android:id="@+id/cell_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="cell_1"
+            android:padding="@dimen/item_cell_padding"
+            android:background="@color/color_cell_text"/>
+
+        <TextView
+            android:id="@+id/cell_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="cell_2"
+            android:padding="@dimen/item_cell_padding"
+            android:background="@color/color_cell_text"/>
+
+
+        <TextView
+            android:id="@+id/cell_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="cell_3"
+            android:padding="@dimen/item_cell_padding"
+            android:background="@color/color_cell_text"/>
+
+        <TextView
+            android:id="@+id/cell_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:text="cell_4"
+            android:padding="@dimen/item_cell_padding"
+            android:background="@color/color_cell_text"/>
+
+
+
+
+
+</LinearLayout>

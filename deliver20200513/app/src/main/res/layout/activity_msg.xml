@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MsgActivity">
+
+    <!-- Header             -->
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/colorMsgHead"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/closeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_back_arrow"
+            android:background="@android:color/transparent"
+            />
+
+
+        <TextView
+            android:id="@+id/msg_titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text=" 접수상세"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+
+
+            />
+
+
+        <ImageButton
+            android:id="@+id/msg_deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_msg_delete"
+            android:background="@android:color/transparent"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/msg_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:background="@color/colorMsgBack"
+            android:layout_marginTop="60dp"
+
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/msg_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="쪽지를 보냅니다."
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/msg_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="쪽지전송" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

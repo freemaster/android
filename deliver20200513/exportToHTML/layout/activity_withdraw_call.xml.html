@@ -1,0 +1,433 @@
+<html>
+<head>
+<title>activity_withdraw_call.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(232,191,106); }
+.s1 { color: rgb(186,186,186); }
+.s2 { color: rgb(106,135,89); }
+.s3 { color: rgb(169,183,198); }
+.s4 { color: rgb(128,128,128); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+activity_withdraw_call.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">&lt;?</span><span class="s1">xml version=</span><span class="s2">&quot;1.0&quot; </span><span class="s1">encoding=</span><span class="s2">&quot;utf-8&quot;</span><span class="s0">?&gt;</span><span class="s3"> 
+</span><span class="s0">&lt;LinearLayout </span><span class="s1">xmlns:android=</span><span class="s2">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:app=</span><span class="s2">&quot;http://schemas.android.com/apk/res-auto&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:tools=</span><span class="s2">&quot;http://schemas.android.com/tools&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">tools:context=</span><span class="s2">&quot;.add.WithdrawCallActivity&quot;</span><span class="s0"> 
+    </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;include  </span><span class="s1">layout=</span><span class="s2">&quot;@layout/header&quot;  </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;ScrollView 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+    </span><span class="s0">&lt;LinearLayout 
+        </span><span class="s1">android:id=</span><span class="s2">&quot;@id/body&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0"> 
+        </span><span class="s1">android:padding=</span><span class="s2">&quot;7dp&quot;</span><span class="s0"> 
+        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_body_back&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+ 
+        </span><span class="s0">&lt;TableLayout 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+            </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0"> 
+            </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/line_top&quot;</span><span class="s0"> 
+            </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;2dp&quot;</span><span class="s0"> 
+            &gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0"> 
+                &gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;출금정보&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0"> 
+                    /&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;LinearLayout 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0"> 
+ 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0"> 
+                    &gt;</span><span class="s3"> 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/info_txt&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:padding=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center_vertical&quot;</span><span class="s0"> 
+ 
+                        /&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/info_ref&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:padding=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center_vertical&quot;</span><span class="s0"> 
+ 
+                        /&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;TextView 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+            </span><span class="s1">android:text=</span><span class="s2">&quot;입금받을 계좌&quot;</span><span class="s0"> 
+            </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;15dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:paddingBottom=</span><span class="s2">&quot;2dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;TableLayout 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+            </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0"> 
+            </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/line_top&quot;</span><span class="s0"> 
+            </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;2dp&quot;</span><span class="s0"> 
+            &gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0"> 
+                &gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;입금은행&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0"> 
+                    /&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/bank_name&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0"> 
+ 
+                    /&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+ 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;입금계좌&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0"> 
+ 
+                    /&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/bank_numb&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0"> 
+ 
+                    /&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;예금주&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0"> 
+ 
+                    /&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/bank_user&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0"> 
+ 
+                    /&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+ 
+        </span><span class="s0">&lt;TextView 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+            </span><span class="s1">android:text=</span><span class="s2">&quot;* 임금계좌 변경은 기사정보에서 변경가능합니다.&quot;</span><span class="s0"> 
+            </span><span class="s1">android:textColor=</span><span class="s2">&quot;@color/color_red&quot;</span><span class="s0"> 
+            </span><span class="s1">android:padding=</span><span class="s2">&quot;2dp&quot;</span><span class="s0"> 
+            /&gt;</span><span class="s3"> 
+ 
+ 
+        </span><span class="s0">&lt;TableLayout 
+            </span><span class="s1">android:layout_marginTop=</span><span class="s2">&quot;15dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+            </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0"> 
+            </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/line_top&quot;</span><span class="s0"> 
+            </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;2dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;현재 예치금&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/depo_now&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;18dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+ 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;최소 예치금&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/depo_min&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;18dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0"> 
+                    /&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+ 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;출금 가능 금액&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0"> 
+                    /&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/with_can&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;18dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+ 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;출금 요청 금액&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0"> 
+                    /&gt;</span><span class="s3"> 
+ 
+ 
+</span><span class="s4">&lt;!-- 
+ android:focusable=&quot;true&quot; 
+android:focusableInTouchMode=&quot;true&quot; 
+ 
+--&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;EditText 
+                    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/with_ask&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:inputType=</span><span class="s2">&quot;numberDecimal&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;20dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+ 
+ 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableRow 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;1dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+ 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;40&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;실출금액\n (부가세포함)&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_head&quot;</span><span class="s0"> 
+                    /&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/with_real&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;60&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:inputType=</span><span class="s2">&quot;numberDecimal&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:textSize=</span><span class="s2">&quot;16dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:background=</span><span class="s2">&quot;@color/colorInfo_text&quot;</span><span class="s0"> 
+                    /&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+ 
+        </span><span class="s0">&lt;TextView 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+            </span><span class="s1">android:text=</span><span class="s2">&quot; * 최소예치금은 할부금 + 리스금액이 포함된 금액입니다.&quot;</span><span class="s0"> 
+ 
+            </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:paddingBottom=</span><span class="s2">&quot;15dp&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+ 
+ 
+ 
+ 
+ 
+        </span><span class="s0">&lt;LinearLayout 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:orientation=</span><span class="s2">&quot;horizontal&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;Button 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/action_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot;</span><span class="s0"> 
+                </span><span class="s1">android:text=</span><span class="s2">&quot;출 금 요 청&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;Button 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/cancel_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot;</span><span class="s0"> 
+                </span><span class="s1">android:text=</span><span class="s2">&quot;취 소&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+        </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+    </span><span class="s0">&lt;/ScrollView&gt;</span><span class="s3"> 
+ 
+</span><span class="s0">&lt;/LinearLayout&gt;</span></pre>
+</body>
+</html>

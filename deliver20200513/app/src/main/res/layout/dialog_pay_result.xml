@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:padding="7dp"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="상 호 명"
+                android:textSize="16dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/shop_name_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+
+                android:text=""
+                android:textSize="16dp"
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+
+                android:text="총결제금액"
+                android:textSize="16dp"
+                android:gravity="center"
+
+                />
+
+            <TextView
+                android:id="@+id/total_amoun_tv"
+                android:layout_width="0dp"
+                android:layout_weight="70"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                android:textSize="16dp"
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:padding="7dp"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+
+                android:text="결과 메시지"
+                android:textSize="16dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/result_msg_tv"
+                android:layout_width="0dp"
+                android:layout_weight="70"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                android:textSize="16dp"
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:padding="7dp"
+            >
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+
+                android:text="결과 코드"
+                android:textSize="16dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/result_code_tv"
+                android:layout_width="0dp"
+                android:layout_weight="70"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                android:textSize="16dp"
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:text="닫  기" />
+
+    </LinearLayout>
+</LinearLayout>

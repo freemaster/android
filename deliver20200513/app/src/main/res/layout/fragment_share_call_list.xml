@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addmgr.fin.CalSalesStoreFragment"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_search" />
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:background="@color/color_table_back"
+        android:paddingTop="1dp">
+
+        <TableRow
+            android:layout_height="40dp"
+            android:background="@color/color_row_back"
+            android:paddingBottom="1dp">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="구분"
+                android:background="@color/color_cell_head"
+                android:gravity="center"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="자사"
+                android:background="@color/color_cell_head"
+                android:gravity="center"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="타사"
+                android:background="@color/color_cell_head"
+                android:gravity="center"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="전체"
+                android:background="@color/color_cell_head"
+                android:gravity="center"/>
+        </TableRow>
+
+
+        <TableRow
+
+            android:background="@color/color_row_back"
+            android:paddingBottom="1dp"
+            >
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="건수"
+                android:background="@color/color_cell_text"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/my"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="TextView"
+                android:background="@color/color_cell_text"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/other"
+                android:layout_height="30dp"
+                android:text="TextView"
+                android:background="@color/color_cell_text"/>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="TextView"
+                android:background="@color/color_cell_text"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/data_RV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

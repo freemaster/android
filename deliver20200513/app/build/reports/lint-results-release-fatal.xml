@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.5.3">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="62"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="78"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="92"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="99"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="118"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="132"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="148"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="170"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="183"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="296"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="309"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="333"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="346"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="360"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="374"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView73`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView73&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="443"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="413"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText14`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/editText14&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="451"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="421"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView118`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView118&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="460"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="430"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView73`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView73&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="474"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="413"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText14`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/editText14&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="482"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="421"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView118`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView118&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="491"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="430"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView73`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView73&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="505"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="413"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText14`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/editText14&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="513"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="421"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView118`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView118&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="522"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="430"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView73`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView73&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="535"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="413"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText14`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/editText14&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="543"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="421"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView118`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView118&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="552"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="430"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/checkBox22`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/checkBox22&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="572"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="399"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView73`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView73&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="587"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="413"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText14`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/editText14&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="595"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="421"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView118`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/textView118&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="604"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="430"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/checkBox22`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                                android:id=&quot;@+id/checkBox22&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="618"
+            column="33"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="399"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="646"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="696"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="703"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="718"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView121`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView121&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="748"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="732"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="775"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="782"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText15`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/editText15&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="789"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="709"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="798"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView121`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView121&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="812"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="732"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText16`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/editText16&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="819"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="739"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView121`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView121&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="828"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="732"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="855"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="862"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText15`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/editText15&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="869"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="709"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="878"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView121`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView121&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="892"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="732"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText16`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/editText16&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="899"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="739"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView121`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                            android:id=&quot;@+id/textView121&quot;"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="908"
+            column="29"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="732"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="929"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="942"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="956"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText15`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/editText15&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="964"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="709"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView12`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView12&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="973"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="48"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView121`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView121&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="980"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="732"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/editText16`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/editText16&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="988"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="739"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView121`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                        android:id=&quot;@+id/textView121&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="997"
+            column="25"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\branch_method_frag.xml"
+            line="732"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/delivery_ck`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/delivery_ck&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\dialog_cal_sales_condition.xml"
+            line="72"
+            column="17"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\dialog_cal_sales_condition.xml"
+            line="38"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/adver_ck`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/adver_ck&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\dialog_cal_sales_condition.xml"
+            line="81"
+            column="17"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\dialog_cal_sales_condition.xml"
+            line="47"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/delivery_ck`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/delivery_ck&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\dialog_cal_sales_condition.xml"
+            line="103"
+            column="17"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\dialog_cal_sales_condition.xml"
+            line="38"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/adver_ck`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/adver_ck&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\dialog_cal_sales_condition.xml"
+            line="111"
+            column="17"/>
+        <location
+            file="D:\_newko\deliver\app\src\main\res\layout\dialog_cal_sales_condition.xml"
+            line="47"
+            column="21"/>
+    </issue>
+
+</issues>

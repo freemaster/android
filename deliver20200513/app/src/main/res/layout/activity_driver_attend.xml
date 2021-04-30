@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add.DriverAttendActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_body_back"
+        android:padding="5dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/search_box"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/color_search_back">
+
+            <TextView
+                android:id="@+id/total_in"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="출근일수 : 3일" />
+
+            <TextView
+                android:id="@+id/total_delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="총 배달건수 : 16일" />
+
+            <TextView
+                android:id="@+id/search_month"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="" />
+
+            <ImageButton
+                android:id="@+id/calendar_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/color_gray"
+                android:src="@drawable/ic_calendar_white" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_table_back"
+            android:paddingTop="1dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:background="@drawable/row_bottom_line"
+                android:gravity="center">
+
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:text="일자"
+                    android:gravity="center"
+                    android:background="@color/color_cell_head"
+                    />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25"
+                    android:text="출근"
+                    android:gravity="center"
+                    android:background="@color/color_cell_head"
+                    />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25"
+                    android:text="퇴근"
+                    android:gravity="center"
+                    android:background="@color/color_cell_head"
+                    />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:text="배달건수"
+                    android:gravity="center"
+                    android:background="@color/color_cell_head"
+                    />
+            </TableRow>
+
+
+
+
+
+        </TableLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/data_RV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white">
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

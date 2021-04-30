@@ -1,0 +1,755 @@
+<html>
+<head>
+<title>activity_store_info.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(232,191,106); }
+.s1 { color: rgb(186,186,186); }
+.s2 { color: rgb(106,135,89); }
+.s3 { color: rgb(169,183,198); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+activity_store_info.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">&lt;?</span><span class="s1">xml version=</span><span class="s2">&quot;1.0&quot; </span><span class="s1">encoding=</span><span class="s2">&quot;utf-8&quot;</span><span class="s0">?&gt;</span><span class="s3"> 
+</span><span class="s0">&lt;LinearLayout 
+    </span><span class="s1">xmlns:android=</span><span class="s2">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:app=</span><span class="s2">&quot;http://schemas.android.com/apk/res-auto&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:tools=</span><span class="s2">&quot;http://schemas.android.com/tools&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">tools:context=</span><span class="s2">&quot;.addmgr.StoreInfoActivity&quot;</span><span class="s0"> 
+    </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;include 
+        </span><span class="s1">layout=</span><span class="s2">&quot;@layout/header&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;ScrollView 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+        </span><span class="s0">&lt;LinearLayout 
+            </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/body&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_body_back&quot;</span><span class="s0"> 
+            </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0"> 
+            </span><span class="s1">android:padding=</span><span class="s2">&quot;5dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+ 
+ 
+ 
+            </span><span class="s0">&lt;TableLayout 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginTop=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_table_back&quot;</span><span class="s0"> 
+                </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;1dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;가맹상태&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/state_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;아이디&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/id_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableLayout 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginTop=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_table_back&quot;</span><span class="s0"> 
+                </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;1dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;가맹점명&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/name_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;사업자구분&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/class_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;사업자번호&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/number_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;업태&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/type_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;업종&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/kind_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableLayout 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginTop=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_table_back&quot;</span><span class="s0"> 
+                </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;1dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;대표자명&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/ceo_name_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;휴대폰&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/phone_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;일반전화&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/tel_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;팩스번호&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/fax_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;이메일&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/email_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableLayout 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginTop=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_table_back&quot;</span><span class="s0"> 
+                </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;1dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;마감시간&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/deadline_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;30&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;배달비용&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/delivery_coast&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;35&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                    </span><span class="s0">&lt;CheckBox 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/customer_pay_cb&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;35&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;고객부담&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        /&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;계약시작일&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/start_date_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;30&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;월관리비&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/mgr_pay_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;35&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;CheckBox 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/mgr_pay_auto_cb&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;35&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;가상계좌 자동이체&quot;</span><span class="s0"> 
+                        /&gt;</span><span class="s3"> 
+ 
+ 
+ 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;월관리비 입금일&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/mgr_pay_day_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;TableLayout 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginTop=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_table_back&quot;</span><span class="s0"> 
+                </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;1dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;가상계좌&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/vaccount_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;계좌정보&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TableLayout 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                        </span><span class="s0">&lt;TableRow  </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                            </span><span class="s0">&lt;TextView 
+                                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:text=</span><span class="s2">&quot;은행명 : &quot;</span><span class="s0"> 
+                                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                            </span><span class="s0">&lt;EditText 
+                                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/bank_name_tv&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+ 
+                        </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                        </span><span class="s0">&lt;TableRow  </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                            </span><span class="s0">&lt;TextView 
+ 
+                                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:text=</span><span class="s2">&quot;계좌번호 : &quot;</span><span class="s0"> 
+                                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                            </span><span class="s0">&lt;EditText 
+                                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/bank_numb_tv&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+ 
+                        </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+ 
+                        </span><span class="s0">&lt;TableRow  &gt;</span><span class="s3"> 
+ 
+                            </span><span class="s0">&lt;TextView 
+                                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:text=</span><span class="s2">&quot;예금주 : &quot;</span><span class="s0"> 
+                                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                            </span><span class="s0">&lt;EditText 
+                                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/bank_user_tv&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+ 
+                        </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+ 
+                    </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;현금영수증&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;CheckBox 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/cash_receipt_cb&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;카드결제대행시스템 이용&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+ 
+ 
+ 
+ 
+ 
+            </span><span class="s0">&lt;TableLayout 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginTop=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_table_back&quot;</span><span class="s0"> 
+                </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;1dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:stretchColumns=</span><span class="s2">&quot;*&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;우편번호&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/zipcode_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;도로명&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/addr_road_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;지번&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/addr_land_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;TableRow </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/row_bottom_line&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;3&quot;</span><span class="s0"> 
+ 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_head&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;상세주소&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;TextView 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/addr_detail_tv&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;@dimen/cell_h_penalty&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;7&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_cell_text&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/TableRow&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;/TableLayout&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;WebView 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;260dp&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;/WebView&gt;</span><span class="s3"> 
+ 
+ 
+ 
+            </span><span class="s0">&lt;LinearLayout 
+                </span><span class="s1">android:layout_marginTop=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_marginBottom=</span><span class="s2">&quot;20dp&quot;</span><span class="s0"> 
+ 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                </span><span class="s0">&lt;LinearLayout 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:orientation=</span><span class="s2">&quot;horizontal&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;Button 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/button5&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;등록&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+                    </span><span class="s0">&lt;Button 
+                        </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/button6&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot;</span><span class="s0"> 
+                        </span><span class="s1">android:text=</span><span class="s2">&quot;취소&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+                </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+            </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+ 
+        </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+    </span><span class="s0">&lt;/ScrollView&gt;</span><span class="s3"> 
+ 
+</span><span class="s0">&lt;/LinearLayout&gt;</span></pre>
+</body>
+</html>

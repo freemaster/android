@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add.BoxActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:id="@id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_back_body"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <include layout="@layout/include_search_year" />
+        <include layout="@layout/include_top_info" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@color/color_gray"
+            >
+
+            <TextView
+                android:id="@+id/cell_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="입금일시"
+                android:textColor="@color/color_white"/>
+
+            <TextView
+                android:id="@+id/cell_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="월 할부금"
+                android:textColor="@color/color_white"
+                />
+
+
+            <TextView
+                android:id="@+id/cell_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="납입상태"
+                android:textColor="@color/color_white"/>
+
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/data_RV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_back_list"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</LinearLayout>

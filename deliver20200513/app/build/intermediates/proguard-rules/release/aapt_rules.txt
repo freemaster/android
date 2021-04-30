@@ -1,0 +1,256 @@
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:27
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:88
+-keep class com.newkoad.deliver.AllocateActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:102
+-keep class com.newkoad.deliver.ClientActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:103
+-keep class com.newkoad.deliver.DediBoxActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:91
+-keep class com.newkoad.deliver.FinishActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:94
+-keep class com.newkoad.deliver.FinishKSActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:112
+-keep class com.newkoad.deliver.GpsInfo { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:44
+-keep class com.newkoad.deliver.LocationActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:69
+-keep class com.newkoad.deliver.LoginActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:81
+-keep class com.newkoad.deliver.MainActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:27
+-keep class com.newkoad.deliver.MainApp { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:97
+-keep class com.newkoad.deliver.MapWebDaumActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:100
+-keep class com.newkoad.deliver.MsgActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:63
+-keep class com.newkoad.deliver.NaviTmapActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:53
+-keep class com.newkoad.deliver.PayActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:56
+-keep class com.newkoad.deliver.PayKSActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:52
+-keep class com.newkoad.deliver.PayResultActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:85
+-keep class com.newkoad.deliver.ReceiveActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:101
+-keep class com.newkoad.deliver.ServerActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:39
+-keep class com.newkoad.deliver.SocketIOActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:120
+-keep class com.newkoad.deliver.SocketIOService { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:38
+-keep class com.newkoad.deliver.SocketIOnActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:116
+-keep class com.newkoad.deliver.SocketService { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:37
+-keep class com.newkoad.deliver.WebBoard2Activity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:45
+-keep class com.newkoad.deliver.WebBoardActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:125
+-keep class com.newkoad.deliver.add.BoardActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:47
+-keep class com.newkoad.deliver.add.BoxActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:110
+-keep class com.newkoad.deliver.add.BranchInfoActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:51
+-keep class com.newkoad.deliver.add.CostBoxActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:50
+-keep class com.newkoad.deliver.add.CostLteActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:49
+-keep class com.newkoad.deliver.add.CostMgrActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:48
+-keep class com.newkoad.deliver.add.DepositActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:43
+-keep class com.newkoad.deliver.add.DepositListgActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:108
+-keep class com.newkoad.deliver.add.DriverAttendActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:109
+-keep class com.newkoad.deliver.add.DriverPenaltyActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:46
+-keep class com.newkoad.deliver.add.LteActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:68
+-keep class com.newkoad.deliver.add.MoneyActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:62
+-keep class com.newkoad.deliver.add.MoneyGetActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:61
+-keep class com.newkoad.deliver.add.MoneyPutActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:67
+-keep class com.newkoad.deliver.add.MyInfoActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:60
+-keep class com.newkoad.deliver.add.RiderMgrActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:64
+-keep class com.newkoad.deliver.add.SettingActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:104
+-keep class com.newkoad.deliver.add.StoreInfoActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:59
+-keep class com.newkoad.deliver.add.StoreMgrActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:107
+-keep class com.newkoad.deliver.add.StoreMgrPayActivity { <init>(); }
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\dialog_calendar.xml:2
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\content_socket_io.xml:2
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\content_calculate.xml:2
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_web_board2.xml:2
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_socket_ion.xml:2
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_navi_kakao.xml:2
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_location.xml:2
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_deposit_listg.xml:2
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_dedi_box.xml:2
+-keep class android.support.constraint.ConstraintLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\design_bottom_navigation_item.xml:27
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_socket_io.xml:9
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\design_bottom_sheet_dialog.xml:26
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_socket_io.xml:2
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_socket_io.xml:25
+-keep class android.support.design.widget.FloatingActionButton { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\mtrl_layout_snackbar.xml:18
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\design_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\mtrl_layout_snackbar_include.xml:18
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\9d7250a774d78c6da773e4ce19c93e82\design-28.0.0\res\layout\design_layout_snackbar_include.xml:18
+-keep class android.support.design.widget.SnackbarContentLayout { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_share_call_mgr.xml:13
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_setting.xml:14
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_sales_stats.xml:23
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_my_info.xml:15
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_money.xml:43
+-keep class android.support.design.widget.TabLayout { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_share_call_mgr.xml:23
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_setting.xml:25
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_sales_stats.xml:33
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_my_info.xml:25
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_money.xml:53
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_main_mgr.xml:192
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_main.xml:170
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\mgr_activity_store_mgr.xml:17
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\mgr_activity_rider_mgr.xml:16
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\mgr_activity_cost_mgr.xml:14
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\mgr_activity_cost_lte.xml:86
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\mgr_activity_cost_box.xml:88
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_share_call_state.xml:60
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_share_call_list.xml:103
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_receive.xml:56
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_my_attend.xml:220
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_msg_node.xml:10
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_money_list.xml:98
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_finish.xml:53
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_deposit_store.xml:196
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\fragment_allocate.xml:10
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_store_mgr_pay.xml:124
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_store_manage.xml:138
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_msg.xml:70
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_lte.xml:63
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_driver_attend.xml:125
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_deposit.xml:323
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_box.xml:66
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout-v26\abc_screen_toolbar.xml:37
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_socket_io.xml:14
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_main_mgr.xml:13
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\이홍근\.gradle\caches\transforms-2\files-2.1\7f5f0b3369d8fa8a72a20e2278ec0acc\appcompat-v7-28.0.0\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_main_mgr.xml:130
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\activity_main.xml:135
+-keep class com.newkoad.deliver.BadgeTabLayout { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\xml\pref_headers.xml:15
+-keep class com.newkoad.deliver.SettingsActivity$DataSyncPreferenceFragment { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\xml\pref_headers.xml:5
+-keep class com.newkoad.deliver.SettingsActivity$GeneralPreferenceFragment { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\xml\pref_headers.xml:10
+-keep class com.newkoad.deliver.SettingsActivity$NotificationPreferenceFragment { <init>(...); }
+
+# Referenced at D:\_newko\deliver\app\src\main\res\layout\header.xml:32
+-keepclassmembers class * { *** onHeaderCloseBtn(android.view.View); }
+

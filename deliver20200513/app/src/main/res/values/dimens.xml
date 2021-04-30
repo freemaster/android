@@ -1,0 +1,50 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+    <dimen name="finish_head_width">110dp</dimen>
+
+    <dimen name="info_margin_bottom">1dp</dimen>
+    <dimen name="info_text_paddingLeft">10dp</dimen> <!--xx -->
+
+
+    <dimen name="adver_line_height">40dp</dimen>
+
+
+    <dimen name="header_height">60dp</dimen>
+
+
+    <dimen name="driverinfo_head_w">40</dimen>
+    <dimen name="driverinfo_text_w">60</dimen>
+
+    <dimen name="driverinfo_row_h">30dp</dimen>
+
+    <dimen name="item_row_padding">7dp</dimen>
+    <dimen name="item_cell_padding">0dp</dimen>
+
+
+    <dimen name="cell_head_fontsize">14dp</dimen>
+    <dimen name="cell_text_fontsize">14dp</dimen>
+
+    <dimen name="font_size_14">14dp</dimen>
+    <dimen name="font_size_16">16dp</dimen>
+    <dimen name="font_size_18">18dp</dimen>
+
+
+    <dimen name="cell_h">40dp</dimen> <!-- list -->
+    <dimen name="cell_h_penalty">30dp</dimen>  <!-- table -->
+    <dimen name="cell_h_branch_info">30dp</dimen>  <!-- table -->
+    <dimen name="cell_h_branch_alarm">40dp</dimen>  <!-- table -->
+
+
+    <dimen name="order_table_head_weight">25</dimen>
+    <dimen name="order_table_text_size">25</dimen>
+
+    <dimen name="adver_table_head_size">25</dimen>
+
+
+</resources>

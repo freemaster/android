@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="540dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <!--   3   현금  -->
+
+    <!-- 확인 취소 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="90"
+            android:orientation="vertical"
+            android:padding="7dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="일일 안전관리 확인표"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="1. 안전모와 안전장구는 구비하고 착용하였습니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="2. 사무실에 비치된 산업안전 보건법 안전 관리 준수사항은 오늘도 읽어보셨습니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="3. 이륜자동차의 전조등, 제동등, 후미등, 후사경 또는 제동 장치가 정상 작동되는지 확인하셨습니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="4. 오늘도 사무실 안전관리자로부터 온,오프상 안전관리 주의 의무를 고지 받았습니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="5. 불법  LED등 부착, 불법 경음기 부착 등 불법 부착물을 부착하여, 시민과 타 운전자에 방해가 되는 장치 부착은 하지 않았습니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="6. 오늘 과속, 난폭운전, 신호위반, 인도주행을 하지 않겠습니까?"
+                android:textSize="14sp"
+                android:padding="1dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="7. 오늘 운행을 함에 있어서, 운전면허증의 효력에 문제는 없습니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="8. 오늘 운행을 함에 있어서, 책임보험의 효력 기간내에 있는 것이 확실합니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="9. 이번달 산재 보험료는 납부하셨습니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="10. 운행중 한눈에 볼 수 있는 위치에서 영상이 표시되는 것은 불법이므로, 이를 지키시겠습니까?"
+                android:textSize="14dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="11. 운전중에는 휴대전화를 사용하지 않을 것을 약속합니까?"
+                android:textSize="14sp"
+                android:padding="2dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/attentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+
+            android:background="#009e96"
+            android:text="일 시작할께요."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

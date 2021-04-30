@@ -1,0 +1,194 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="th" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">25</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@color/colorInfo_head</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="td" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">25</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@color/colorInfo_head</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!--              ///////////////////////////                -->
+
+    <style name="tr_order" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+
+    <style name="tr_lay_order" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <style name="th_lay_order" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">25</item>
+        <item name="android:background">@color/color_th_lay</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="td_lay_order" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">75</item>
+        <item name="android:background">@color/color_td_lay</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <style name="th_txt_order" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:background">@color/color_th_lay</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="td_txt_order" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/color_td_lay</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+
+    <style name="btn_sm">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">35dp</item>
+
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:background">@drawable/select_phone_navy</item>
+        <item name="android:drawableLeft">@drawable/ic_phone_blue</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+
+    <style name="btn_sm_red">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:textColor">@color/color_red</item>
+        <item name="android:background">@drawable/select_phone_navy</item>
+        <item name="android:drawableLeft">@drawable/ic_phone_blue</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+
+    <style name="btn_mgr">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@drawable/select_navy_blue</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+
+    <style name="btn_md_days">
+        <item name="android:textSize">16dp</item>
+        <item name="android:background">@drawable/selector_day_btn</item>
+    </style>
+
+    <style name="btn_bar_" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@drawable/select_navy_blue</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+
+    <style name="et_days_" parent="TextAppearance.AppCompat.Medium">
+
+    </style>
+
+
+    <!--  mypage   -->
+
+    <style name="title_lay">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/color_table_back</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="title_text" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:background">@color/color_cell_text</item>
+    </style>
+
+
+    <style name="text_lay">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/color_row_back</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">1dp</item>
+
+    </style>
+
+    <style name="text_h" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">30</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@color/color_cell_text</item>
+    </style>
+
+    <style name="text_d" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">70</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@color/color_cell_text</item>
+    </style>
+    <!--     -->
+
+</resources>

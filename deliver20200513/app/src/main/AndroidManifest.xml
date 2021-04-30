@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newkoad.deliver">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+
+    <application
+        android:name=".MainApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".WebBoard2Activity"></activity>
+        <activity android:name=".SocketIOnActivity" />
+        <activity
+            android:name=".SocketIOActivity"
+            android:label="@string/title_activity_socket_io"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".add.DepositListgActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".WebBoardActivity" />
+        <activity android:name=".add.LteActivity" />
+        <activity android:name=".add.BoxActivity" />
+        <activity android:name=".add.DepositActivity" />
+        <activity android:name=".add.CostMgrActivity" />
+        <activity android:name=".add.CostLteActivity" />
+        <activity android:name=".add.CostBoxActivity" />
+        <activity android:name=".PayResultActivity" />
+        <activity
+            android:name=".PayActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".PayKSActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".add.StoreMgrActivity" />
+        <activity android:name=".add.RiderMgrActivity" />
+        <activity android:name=".add.MoneyPutActivity" />
+        <activity android:name=".add.MoneyGetActivity" />
+        <activity android:name=".NaviTmapActivity" />
+        <activity
+            android:name=".add.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".add.MyInfoActivity" />
+        <activity android:name=".add.MoneyActivity" />
+
+
+
+
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReceiveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AllocateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FinishActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FinishKSActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapWebDaumActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MsgActivity" />
+        <activity android:name=".ServerActivity" />
+        <activity android:name=".ClientActivity" />
+        <activity android:name=".DediBoxActivity" />
+        <activity
+            android:name=".add.StoreInfoActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".add.StoreMgrPayActivity" />
+        <activity android:name=".add.DriverAttendActivity" />
+        <activity android:name=".add.DriverPenaltyActivity" />
+        <activity android:name=".add.BranchInfoActivity" />
+
+        <service
+            android:name=".GpsInfo"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".SocketIOService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".add.BoardActivity" />
+        <receiver android:name=".AlarmRecever"/>
+    </application>
+
+</manifest>

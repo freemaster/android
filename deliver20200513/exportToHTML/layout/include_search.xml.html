@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>include_search.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(232,191,106); }
+.s1 { color: rgb(186,186,186); }
+.s2 { color: rgb(106,135,89); }
+.s3 { color: rgb(169,183,198); }
+.s4 { color: rgb(128,128,128); }
+</style>
+</head>
+<BODY BGCOLOR="#2b2b2b">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+include_search.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">&lt;?</span><span class="s1">xml version=</span><span class="s2">&quot;1.0&quot; </span><span class="s1">encoding=</span><span class="s2">&quot;utf-8&quot;</span><span class="s0">?&gt;</span><span class="s3"> 
+ 
+ 
+</span><span class="s4">&lt;!-- Header 
+ 
+      --&gt;</span><span class="s3"> 
+</span><span class="s0">&lt;LinearLayout 
+    </span><span class="s1">xmlns:android=</span><span class="s2">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:app=</span><span class="s2">&quot;http://schemas.android.com/apk/res-auto&quot;</span><span class="s0"> 
+    </span><span class="s1">xmlns:tools=</span><span class="s2">&quot;http://schemas.android.com/tools&quot;</span><span class="s0"> 
+ 
+    </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/search_box&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+    </span><span class="s1">android:orientation=</span><span class="s2">&quot;horizontal&quot;</span><span class="s0"> 
+    </span><span class="s1">android:paddingLeft=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+    </span><span class="s1">android:paddingRight=</span><span class="s2">&quot;5dp&quot;</span><span class="s0"> 
+ 
+    </span><span class="s1">android:paddingTop=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+    </span><span class="s1">android:paddingBottom=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+ 
+    &gt;</span><span class="s3"> 
+ 
+ 
+    </span><span class="s0">&lt;LinearLayout 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;75&quot;</span><span class="s0"> 
+        </span><span class="s1">android:orientation=</span><span class="s2">&quot;vertical&quot;</span><span class="s0"> 
+ 
+ 
+ 
+        &gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;LinearLayout 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;30dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;50&quot;</span><span class="s0"> 
+            </span><span class="s1">android:orientation=</span><span class="s2">&quot;horizontal&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;EditText 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/s_date&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;35&quot;</span><span class="s0"> 
+                </span><span class="s1">android:ems=</span><span class="s2">&quot;14&quot;</span><span class="s0"> 
+                </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                </span><span class="s1">android:inputType=</span><span class="s2">&quot;date&quot;</span><span class="s0"> 
+                </span><span class="s1">android:textSize=</span><span class="s2">&quot;14dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/box_border_gray&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;ImageButton 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/s_calendar_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;15&quot;</span><span class="s0"> 
+                </span><span class="s1">android:src=</span><span class="s2">&quot;@drawable/ic_calendar_white&quot;</span><span class="s0"> 
+                </span><span class="s1">android:text=</span><span class="s2">&quot;달력&quot;</span><span class="s0"> 
+                </span><span class="s1">android:textSize=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_gray&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+ 
+                </span><span class="s0">&lt;TextView 
+                    </span><span class="s1">android:layout_width=</span><span class="s2">&quot;14dp&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:text=</span><span class="s2">&quot;~&quot;</span><span class="s0"> 
+                    </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+ 
+ 
+            </span><span class="s0">&lt;EditText 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/e_date&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;35&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/box_border_gray&quot;</span><span class="s0"> 
+                </span><span class="s1">android:ems=</span><span class="s2">&quot;14&quot;</span><span class="s0"> 
+                </span><span class="s1">android:gravity=</span><span class="s2">&quot;center&quot;</span><span class="s0"> 
+                </span><span class="s1">android:inputType=</span><span class="s2">&quot;date&quot;</span><span class="s0"> 
+                </span><span class="s1">android:textSize=</span><span class="s2">&quot;14dp&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;ImageButton 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/e_calendar_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;15&quot;</span><span class="s0"> 
+                </span><span class="s1">android:src=</span><span class="s2">&quot;@drawable/ic_calendar_white&quot;</span><span class="s0"> 
+                </span><span class="s1">android:text=</span><span class="s2">&quot;달력&quot;</span><span class="s0"> 
+                </span><span class="s1">android:textSize=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_gray&quot;</span><span class="s0"> 
+ 
+ 
+                /&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;LinearLayout 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;35dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;50&quot;</span><span class="s0"> 
+            </span><span class="s1">android:orientation=</span><span class="s2">&quot;horizontal&quot;</span><span class="s0"> 
+            </span><span class="s1">android:gravity=</span><span class="s2">&quot;bottom&quot;</span><span class="s0"> 
+ 
+            &gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;Button 
+ 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/today_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;50dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;26dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/selector_day_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:text=</span><span class="s2">&quot;당일&quot;</span><span class="s0"> 
+                </span><span class="s1">android:textSize=</span><span class="s2">&quot;11dp&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+            /&gt; 
+ 
+            </span><span class="s0">&lt;Space 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;Button 
+ 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/yesterday_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;50dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;26dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/selector_day_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:text=</span><span class="s2">&quot;어제&quot;</span><span class="s0"> 
+                </span><span class="s1">android:textSize=</span><span class="s2">&quot;11dp&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;Space 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;Button 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/oneweek_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;50dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;26dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/selector_day_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:text=</span><span class="s2">&quot;일주일&quot;</span><span class="s0"> 
+                </span><span class="s1">android:textSize=</span><span class="s2">&quot;11dp&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+ 
+            </span><span class="s0">&lt;Space 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+            </span><span class="s0">&lt;Button 
+                </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/onemonth_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_width=</span><span class="s2">&quot;50dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_height=</span><span class="s2">&quot;26dp&quot;</span><span class="s0"> 
+                </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;1&quot;</span><span class="s0"> 
+                </span><span class="s1">android:background=</span><span class="s2">&quot;@drawable/selector_day_btn&quot;</span><span class="s0"> 
+                </span><span class="s1">android:text=</span><span class="s2">&quot;한달&quot;</span><span class="s0"> 
+                </span><span class="s1">android:textSize=</span><span class="s2">&quot;11dp&quot;</span><span class="s0"> 
+ 
+ 
+                /&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+    </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+    </span><span class="s0">&lt;LinearLayout 
+        </span><span class="s1">android:layout_width=</span><span class="s2">&quot;0dp&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+        </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;25&quot;</span><span class="s0"> 
+        </span><span class="s1">android:orientation=</span><span class="s2">&quot;horizontal&quot;</span><span class="s0">&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;Space 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;10dp&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;wrap_content&quot; </span><span class="s0">/&gt;</span><span class="s3"> 
+ 
+        </span><span class="s0">&lt;Button 
+            </span><span class="s1">android:id=</span><span class="s2">&quot;@+id/search_btn&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_width=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_height=</span><span class="s2">&quot;match_parent&quot;</span><span class="s0"> 
+            </span><span class="s1">android:layout_weight=</span><span class="s2">&quot;9&quot;</span><span class="s0"> 
+            </span><span class="s1">android:background=</span><span class="s2">&quot;@color/color_search_navy&quot;</span><span class="s0"> 
+            </span><span class="s1">android:text=</span><span class="s2">&quot;검 색&quot;</span><span class="s0"> 
+            </span><span class="s1">android:textColor=</span><span class="s2">&quot;@color/color_white&quot;</span><span class="s0">/&gt;</span><span class="s3"> 
+    </span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+ 
+ 
+ 
+</span><span class="s0">&lt;/LinearLayout&gt;</span><span class="s3"> 
+ 
+ 
+</span></pre>
+</body>
+</html>
